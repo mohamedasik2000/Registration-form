@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="titlecontainer">
+        <h1 class="title">Registration</h1>
+    </div>
+    <div class="formcontainer">
+        <form action="/submit-your-form-handler" method="post">
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Fullname"><br>
+            
+            <label for="age">Age</label><br>
+            <input type="number" id="age" name="age" required><br>
+            
+            <label for="gender">Gender</label><br>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other" required>
+            <label for="other">Other</label><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="xxx@outlook.com"><br>
+            
+            <label for="course">Course:</label><br>
+            <select id="course" name="course" required>
+              <option value="">Select a course</option>
+              <option value="C">C</option>
+              <option value="C++">C++</option>
+              <option value="C#">C#</option>
+              <option value="Python">Python</option>
+              <option value="Java">Java</option>
+              <option value="JavaScript">JavaScript</option>
+              <option value="HTML/CSS">HTML/CSS</option>
+              <option value="PHP">PHP</option>
+              <option value="Kotlin">Kotlin</option>
+              <option value="Go">Go</option>
+              <option value="Swift">Swift</option>
+            </select><br>
+            
+            <input type="submit" value="Save">
+          </form>
+    </div>
+
+</body>

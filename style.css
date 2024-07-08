@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #6b6e70;
+    margin: 0;
+}
+
+.titlecontainer{
+    padding: 20px;
+    background-color: #222629;
+}
+    
+.title{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #86c232;
+    text-align: center;
+}
+
+.formcontainer{
+    position: relative;
+    top: 50px;
+}
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    background: #474b4f;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 50px rgba(25, 32, 20, 0.1);
+}
+    
+label{
+    font-family: "Mukta", sans-serif;
+    color: #86c232;
+    margin:10px 0px 10px 0px;
+}
+    
+input[type="text"],input[type="number"],input[type="email"],select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #222629;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+    
+input[type="radio"] {
+margin-right: 10px;
+}
+    
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    position: relative;
+    left:40%;
+}
+    
+input[type="submit"]:hover {
+background-color: #45a049;
+}
+
